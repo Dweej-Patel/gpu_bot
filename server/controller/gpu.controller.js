@@ -1,6 +1,6 @@
 const GPU_INFO = require("../models/gpu.model");
 
-const filename = "C:\\Non_windows_programs\\gpu_bot\\controller\\gpu_counter.json";
+const filename = `${__dirname}/gpu_counter.json`;
 
 const fs = require('fs');
 
